@@ -6,6 +6,7 @@ Is there any coorelation between the existence of bike infrastructure and the fr
 
 Datasets: 
 https://www.opendataphilly.org/dataset/bike-network 
+
 https://data.philly.com/datasets/crashes/pedestrian_bicyclist/?cType=fm  
 
 We will be using a relational database and using SQL to combine the two databases. 
