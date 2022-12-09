@@ -17,21 +17,9 @@ D1: https://www.opendataphilly.org/dataset/bike-network
 D2: https://data.philly.com/datasets/crashes/pedestrian_bicyclist/?cType=fm  
 
 ### Transformation
-Once we extracted our data from the two datasets, we transformed the data by filtering out the columns containing data we did not need. We then deleted all duplicates in D1 and cleaned the data in D2. In order to have our two dataframes matching to join, we split the column "Street_Name_Lane" and and removed extra spaces in the street names in D2.
+Once we extracted our data from the two datasets, we transformed the data by filtering out the columns containing data we did not need. We then deleted all duplicates in D1 and cleaned the data in D2. In order to have our two dataframes matching to join, we split the column "Street_Name_Lane" and and removed extra spaces in the street names in D2. There was a discrepancy in the wording of the street names between the data sets, so we changed abbreviation for avenue from "AV" in D2 to "AVE" to match D1. 
 
 
 ### Load
-With our datsets newly transformed, we used Pandas to load our data in the the data tables created in SQL. Using Postgres, we performed an inner join to combine our data tables. By doing this, we were able to compare both datasets by street names to determine where bike accidents occured on a road with bike infrastructure. This infomration can be used to determine if bike infrastructure makes it safer for bicyclists sharing the road, and further determines which type of bike infrastructure is the safest. 
+With our datsets newly transformed, we used Pandas to load our data in the the data tables created in SQL. Using Postgres, we performed an inner join to combine our data tables. By doing this, we were able to compare both datasets by street names to determine where bike accidents occured on a road with bike infrastructure. This information can be used to determine if bike infrastructure makes it safer for bicyclists sharing the road, and further determines which type of bike infrastructure is the safest. 
 
-
-Extract: indicates the original
-data sources and how the data
-were formatted at a professional
-level
-Transform: explains what data
-clearing or transformation was
-required at a professional level
-Load: explains the final
-database, tables/collections, and
-why the topic was chosen at a
-professional leve
