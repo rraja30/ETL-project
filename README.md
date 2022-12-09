@@ -10,16 +10,16 @@ https://data.philly.com/datasets/crashes/pedestrian_bicyclist/?cType=fm
 We will be using a relational database and using SQL to combine the two databases. 
 
 ### Extraction
-We used data from two datasets, 1 detailing information regarding Philidelphia's bike infrastructure based on location, and the other dataset detailing bike accident information throughout Philidelphia. We will refer to these datasets as D1 and D2 respectively. 
+We used data from two datasets, 1 detailing information regarding Philidelphia's bike infrastructure based on location, and the other dataset detailing bike accident information throughout Philidelphia. We will refer to these datasets as D1 and D2 respectively. D1 was a downloadable csv file, while 
 
 Extract: indicates the original
 data sources and how the data
 were formatted at a professional
 level
-√ Transform: explains what data
+Transform: explains what data
 clearing or transformation was
 required at a professional level
-√ Load: explains the final
+Load: explains the final
 database, tables/collections, and
 why the topic was chosen at a
 professional leve
