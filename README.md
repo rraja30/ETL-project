@@ -1,4 +1,4 @@
-## ETL Project
+## ETL Project: Crash Test Dummies
 ### Proposal
 Alison Faulkner, Annalyse Bergman, and Ramya Nivedha Raja
 
