@@ -21,7 +21,7 @@ Once we extracted our data from the two datasets, we transformed the data by fil
 
 
 ### Load
-With our datsets newly transformed, we used Pandas to load our data in the the data tables created in SQL. Using Postgres, we performed a full outer join to combine our data tables. By doing this, we were able to compare both datasets by street names to determine where bike accidents occured on a road with bike infrastructure. This infomration can be used to determine if bike infrastructure makes it safer for bicyclist sharing the road, and further determines which type of bike infrastructure is the safest. 
+With our datsets newly transformed, we used Pandas to load our data in the the data tables created in SQL. Using Postgres, we performed a full outer join to combine our data tables. By doing this, we were able to compare both datasets by street names to determine where bike accidents occured on a road with bike infrastructure. This infomration can be used to determine if bike infrastructure makes it safer for bicyclists sharing the road, and further determines which type of bike infrastructure is the safest. 
 
 
 Extract: indicates the original
