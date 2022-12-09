@@ -14,6 +14,7 @@ We will be using a relational database and using SQL to combine the two database
 We used data from two datasets, one detailing information regarding Philadelphia's bike infrastructure based on location, and the other dataset detailing bike accident information and incidents throughout Philadelphia. We will refer to these datasets as D1 and D2 respectively. D1 was a downloadable csv file while D2 was a website table that we converted to a csv file. 
 
 D1: https://www.opendataphilly.org/dataset/bike-network 
+
 D2: https://data.philly.com/datasets/crashes/pedestrian_bicyclist/?cType=fm  
 
 ### Transformation
